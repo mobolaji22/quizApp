@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul,
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+  :root {
+    --primary: #a16e6e;
+    --white: #ffffff;
+    font-size: 62.5%;
+  }
+  
+  /* utility classes */
+  body {
+    font-size: 2rem;
+    color: #333;
+    background: linear-gradient(
+      179.4deg,
+      rgb(253, 240, 233) 2.2%,
+      rgb(255, 194, 203) 96.2%
+    );
+    justify-content: center;
+  }
+  #wrapper {
+    height: 100vh;
+    background-color: var(--primary);
+    width: 80%;
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 2rem;
+  }
+  #container {
+    background-color: #fdeae5;
+    width: 80%;
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+    margin: auto;
+    height: 80%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    align-items: center;
+    gap: 5rem;
+  }
+  main div{
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+  }
+  .btn {
+    margin: 1rem;
+    color: #333;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 15rem;
+    text-align: center;
+  }
+  .btn:hover {
+    color: var(--primary);
+    cursor: pointer;
+  }
+  #saveBtn {
+    margin: 1rem;
+    color: #333;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    width: 15rem;
+    text-align: center;
+  }
+  .submit:hover {
+    color: var(--primary);
+    cursor: pointer;
+  }

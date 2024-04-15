@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="question1.css" />
+    <title>question 1</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <header>
+          <h3>quizApp</h3>
+        </header>
+        <main>
+          <div id="hud">
+            <div id="hud-item">
+              <p id="progressText" class="hud-prefix">Question</p>
+              <div id="progressBar">
+                <div id="progressBarFull"></div>
+              </div>
+            </div>
+            <div id="hud-item">
+              <p class="hud-prefix">Score</p>
+              <h1 class="hud-main-text" id="score">0</h1>
+            </div>
+          </div>
+          <p id="question">What movie is the most famous?</p>
+          <button id="arrow" disabled>Next</button>
+        </main>
+      </div>
+      <aside>
+        <span>
+          <a href="#" id="profile"><img src="/img/prof2.jpg" alt="" /></a>
+          <a href="index.html" id="logout">Quit</a>
+        </span>
+
+        <div id="options">
+          <button class="option" data-number="1">Avatar</button>
+          <button class="option" data-number="2">Avengers</button>
+          <button class="option" data-number="3">Titanic</button>
+          <button class="option" data-number="4">X-Men</button>
+        </div>
+      </aside>
+    </div>
+    <script src="question1.js"></script>
+  </body>
+</html>
