@@ -53,7 +53,7 @@ main {
 
 #hud {
   display: flex;
-  gap: 30rem;
+  gap: 20rem;
   align-items: center;
 }
 
@@ -171,4 +171,14 @@ aside a:hover {
     color: #BAB8B7;
     background-color: var(--secondary);
   }
+  .correct {
+    background-color: #28a745;
+  }
+  .incorrect {
+    background-color: #dc3545;
+  }
+
+  /* @media (min-width: 768px) {
+
+  } */
 
