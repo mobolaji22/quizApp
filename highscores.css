@@ -76,3 +76,23 @@ body {
 .high-score:hover {
   transform: scale(1.025);
 }
+@media (max-width: 810px) {
+  #wrapper {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+  #container {
+    height: 90vh;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  aside {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  #wrapper {
+    width: 95%;
+  }
+}

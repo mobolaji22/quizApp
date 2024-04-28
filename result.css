@@ -92,12 +92,22 @@ main div {
   cursor: pointer;
 }
 @media (max-width: 810px) {
+  #wrapper {
+    width: 90%;
+  }
   main {
     font-size: 1.9rem;
   }
 }
 
 @media (max-width: 500px) {
+  #wrapper {
+    width: 95%;
+  }
+  #container {
+    width: 90%;
+    height: 90%;
+  }
   main {
     font-size: 1.5rem;
   }

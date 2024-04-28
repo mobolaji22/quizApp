@@ -112,9 +112,10 @@ aside div {
 @media (max-width: 810px) {
   #wrapper {
     flex-direction: column-reverse;
+    width: 90%;
   }
   #container {
-    height: 80vh;
+    height: 90vh;
     width: 90%;
     margin: 1rem auto;
   }
@@ -124,7 +125,13 @@ aside div {
   }
 }
 @media (max-width: 500px) {
+  #wrapper {
+    width: 95%;
+  }
   .btn{
     padding: .5rem;
+  }
+  main {
+    font-size: 1.5rem;
   }
 }

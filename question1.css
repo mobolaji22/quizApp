@@ -220,18 +220,27 @@ aside a:hover {
 }
 
 @media (max-width: 500px) {
+  #wrapper {
+    width: 95%;
+  }
   #mini-span {
     margin: auto 2rem;
   }
   #container {
-    height: 50vh;
+    height: 55vh;
   }
   header {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+  }
+  .hud-prefix {
+    font-size: 1.5rem;
+  }
+  .hud-main-text {
+    font-size: 3rem;
   }
   #question {
     margin-top: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   #arrow {
     margin: 3rem auto;
