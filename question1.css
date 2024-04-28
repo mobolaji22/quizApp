@@ -31,7 +31,7 @@ body {
   margin: 0 auto;
   border-radius: 2rem;
 }
-#mini-span{
+#mini-span {
   display: none;
 }
 #container {
@@ -67,7 +67,7 @@ main {
   text-align: center;
   font-size: 4rem;
   line-height: 5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #progressBar {
@@ -184,7 +184,7 @@ aside a:hover {
     flex-direction: column;
     width: 90%;
   }
-  #mini-span{
+  #mini-span {
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -196,7 +196,7 @@ aside a:hover {
     height: 60vh;
     margin: auto;
   }
-  header{
+  header {
     margin-bottom: 2rem;
   }
   #question {
@@ -220,19 +220,24 @@ aside a:hover {
 }
 
 @media (max-width: 500px) {
-  #mini-span{
+  #mini-span {
     margin: auto 2rem;
   }
   #container {
     height: 50vh;
   }
-  header{
-    margin-bottom: 3rem;
+  header {
+    margin-bottom: 5rem;
   }
   #question {
     margin-top: 2rem;
+    font-size: 1.8rem;
   }
   #arrow {
     margin: 3rem auto;
+  }
+  #options {
+    gap: 2rem;
+    font-size: 1.6rem;
   }
 }
