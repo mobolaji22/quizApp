@@ -124,7 +124,6 @@ a {
 }
 #profile {
   width: auto;
-  padding: 0;
   margin-top: 0.5rem;
   border-radius: 50%;
   background-color: transparent;
@@ -183,24 +182,33 @@ aside a:hover {
 @media (max-width: 810px) {
   #wrapper {
     flex-direction: column;
+    width: 90%;
   }
   #mini-span{
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: end;
-    padding: 1rem 3rem 0;
+    margin: auto 3rem 0;
   }
   #container {
     width: 90%;
-    margin: 1rem auto;
+    height: 60vh;
+    margin: auto;
   }
   header{
     margin-bottom: 2rem;
   }
+  #question {
+    margin-top: 7rem;
+  }
+  #arrow {
+    margin-top: 7rem;
+  }
   aside {
-    width: 90%;
+    width: 100%;
     padding: 1rem 0;
+    margin-left: -2.5rem;
   }
   aside span {
     display: none;
@@ -208,5 +216,20 @@ aside a:hover {
   #options button {
     margin: 0 auto;
     width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  #mini-span{
+    margin: auto 2rem;
+  }
+  #container {
+    height: 50vh;
+  }
+  #question {
+    margin-top: 3rem;
+  }
+  #arrow {
+    margin-top: 3rem;
   }
 }
