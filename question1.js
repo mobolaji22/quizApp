@@ -5,6 +5,7 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const next = document.getElementById("arrow");
 
+
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;

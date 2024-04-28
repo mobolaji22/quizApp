@@ -21,16 +21,18 @@ body {
     rgb(253, 240, 233) 2.2%,
     rgb(255, 194, 203) 96.2%
   );
-  justify-content: center;
 }
 #wrapper {
-  height: 100vh;
+  max-width: 1080px;
+  min-height: 100vh;
   background-color: var(--primary);
   width: 80%;
-  max-width: 80%;
   display: flex;
   margin: 0 auto;
   border-radius: 2rem;
+}
+#mini-span{
+  display: none;
 }
 #container {
   background-color: #fdeae5;
@@ -47,28 +49,29 @@ main {
   align-items: center;
   gap: 1rem;
 }
-#question{
-    margin-top: 6rem;
+#question {
+  margin-top: 6rem;
+  text-align: center;
 }
 
 #hud {
   display: flex;
-  gap: 20rem;
-  align-items: center;
+  gap: 10%;
 }
 
 .hud-prefix {
-  text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .hud-main-text {
   text-align: center;
   font-size: 4rem;
+  line-height: 5rem;
+  margin-top: .5rem;
 }
 
 #progressBar {
-  width: 20rem;
+  width: 15rem;
   height: 3rem;
   border: 0.3rem solid var(--primary);
   margin-top: 1.5rem;
@@ -77,7 +80,6 @@ main {
 #progressBarFull {
   height: 2.5rem;
   background-color: var(--primary);
-  width: 0%;
 }
 
 #arrow {
@@ -92,11 +94,11 @@ main {
   cursor: pointer;
 }
 #arrow[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-    color: #BAB8B7;
-  }
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  color: #bab8b7;
+}
 
 aside {
   display: flex;
@@ -104,13 +106,13 @@ aside {
   margin: 1rem 0;
   width: 35%;
 }
-aside span {
+span {
   display: flex;
   gap: 2rem;
   align-items: center;
   justify-content: end;
 }
-aside a {
+a {
   cursor: pointer;
   color: #333;
   background-color: var(--secondary);
@@ -155,7 +157,7 @@ aside a:hover {
   background-color: var(--secondary);
   border-radius: 1rem;
   border: 1px solid rgba(0, 0, 0, 0);
-  width: 50%;
+  width: 100%;
   cursor: pointer;
   font-size: 1.7rem;
 }
@@ -165,20 +167,46 @@ aside a:hover {
   color: var(--primary);
 }
 #options button[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-    color: #BAB8B7;
-    background-color: var(--secondary);
-  }
-  .correct {
-    background-color: #28a745;
-  }
-  .incorrect {
-    background-color: #dc3545;
-  }
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+  color: #bab8b7;
+  background-color: var(--secondary);
+}
+.correct {
+  background-color: #28a745;
+}
+.incorrect {
+  background-color: #dc3545;
+}
 
-  /* @media (min-width: 768px) {
-
-  } */
-
+@media (max-width: 810px) {
+  #wrapper {
+    flex-direction: column;
+  }
+  #mini-span{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem 3rem 0;
+  }
+  #container {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  header{
+    margin-bottom: 2rem;
+  }
+  aside {
+    width: 90%;
+    padding: 1rem 0;
+  }
+  aside span {
+    display: none;
+  }
+  #options button {
+    margin: 0 auto;
+    width: 80%;
+  }
+}

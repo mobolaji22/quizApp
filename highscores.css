@@ -30,7 +30,7 @@ body {
   height: 100vh;
   background-color: var(--primary);
   width: 80%;
-  max-width: 80%;
+  max-width: 1080px;
   display: flex;
   margin: 0 auto;
   border-radius: 2rem;
