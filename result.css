@@ -96,3 +96,9 @@ main div {
     font-size: 1.9rem;
   }
 }
+
+@media (max-width: 500px) {
+  main {
+    font-size: 1.5rem;
+  }
+}
