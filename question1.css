@@ -193,6 +193,7 @@ aside a:hover {
   }
   #container {
     width: 90%;
+    height: 60vh;
     margin: auto;
   }
   header{
@@ -225,10 +226,13 @@ aside a:hover {
   #container {
     height: 50vh;
   }
+  header{
+    margin-bottom: 3rem;
+  }
   #question {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   #arrow {
-    margin-top: 3rem;
+    margin: 3rem auto;
   }
 }
