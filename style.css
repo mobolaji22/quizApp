@@ -128,6 +128,9 @@ aside div {
   #wrapper {
     width: 95%;
   }
+  #container {
+    padding: 0;
+  }
   .btn{
     padding: .5rem;
   }

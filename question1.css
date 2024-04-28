@@ -230,7 +230,7 @@ aside a:hover {
     height: 55vh;
   }
   header {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
   .hud-prefix {
     font-size: 1.5rem;
@@ -240,7 +240,7 @@ aside a:hover {
   }
   #question {
     margin-top: 2rem;
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
   #arrow {
     margin: 3rem auto;
